@@ -47,7 +47,8 @@ class HomePage extends StatelessWidget {
         context: context,
         removeTop: true,
         removeBottom: true,
-        child: Column(
+        child: ListView(
+          scrollDirection: Axis.vertical,
           children: [
             Column(
               children: [
@@ -57,7 +58,7 @@ class HomePage extends StatelessWidget {
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
-                      image: AssetImage('lib/images/project2.jpg'),
+                      image: AssetImage('lib/images/project1.jpg'),
                       fit: BoxFit.cover,
                     ),
                   ),

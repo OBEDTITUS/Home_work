@@ -17,10 +17,12 @@ class Scrollsection extends StatelessWidget {
                 width: MediaQuery.of(context).size.width * 0.3,
                 height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  image: DecorationImage(
+                    image: AssetImage('lib/images/project1.jpg'),
+                    fit: BoxFit.cover,
+                  ),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Center(child: Text("Brand 1")),
               ),
               RichText(
                 maxLines: 7,
@@ -69,10 +71,12 @@ class Scrollsection extends StatelessWidget {
                 width: MediaQuery.of(context).size.width * 0.3,
                 height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  image: DecorationImage(
+                    image: AssetImage('lib/images/project2.jpg'),
+                    fit: BoxFit.cover,
+                  ),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Center(child: Text("Brand 2")),
               ),
               RichText(
                 maxLines: 7,
@@ -121,10 +125,12 @@ class Scrollsection extends StatelessWidget {
                 width: MediaQuery.of(context).size.width * 0.3,
                 height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  image: DecorationImage(
+                    image: AssetImage('lib/images/project1.jpg'),
+                    fit: BoxFit.cover,
+                  ),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Center(child: Text("Brand 2")),
               ),
               RichText(
                 maxLines: 7,
@@ -173,10 +179,12 @@ class Scrollsection extends StatelessWidget {
                 width: MediaQuery.of(context).size.width * 0.3,
                 height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  image: DecorationImage(
+                    image: AssetImage('lib/images/project2.jpg'),
+                    fit: BoxFit.cover,
+                  ),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Center(child: Text("Brand 2")),
               ),
               RichText(
                 maxLines: 7,
@@ -225,10 +233,12 @@ class Scrollsection extends StatelessWidget {
                 width: MediaQuery.of(context).size.width * 0.3,
                 height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  image: DecorationImage(
+                    image: AssetImage('lib/images/project1.jpg'),
+                    fit: BoxFit.cover,
+                  ),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Center(child: Text("Brand 2")),
               ),
               RichText(
                 maxLines: 7,
@@ -277,10 +287,12 @@ class Scrollsection extends StatelessWidget {
                 width: MediaQuery.of(context).size.width * 0.3,
                 height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
-                  color: Colors.grey[300],
+                  image: DecorationImage(
+                    image: AssetImage('lib/images/project2.jpg'),
+                    fit: BoxFit.cover,
+                  ),
                   borderRadius: BorderRadius.circular(10),
                 ),
-                child: Center(child: Text("Brand 2")),
               ),
               RichText(
                 maxLines: 7,
