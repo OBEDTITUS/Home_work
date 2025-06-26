@@ -10,6 +10,8 @@ class HomePage extends StatelessWidget {
     return Scaffold(
       extendBodyBehindAppBar: true,
       appBar: AppBar(
+        backgroundColor: Colors.white,
+        elevation: 8,
         title: Row(
           children: [
             Padding(
@@ -23,7 +25,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
             ),
-            SizedBox(width: MediaQuery.of(context).size.width * 0.6),
+            SizedBox(width: MediaQuery.of(context).size.width * 0.55),
             TextButton(
               onPressed: () {},
 
@@ -54,7 +56,7 @@ class HomePage extends StatelessWidget {
               children: [
                 Container(
                   width: MediaQuery.of(context).size.height * 0.17,
-                  height: MediaQuery.of(context).size.width * 0.6,
+                  height: MediaQuery.of(context).size.width * 0.85,
                   decoration: BoxDecoration(
                     shape: BoxShape.circle,
                     image: DecorationImage(
@@ -91,21 +93,20 @@ class HomePage extends StatelessWidget {
                     "RECOMMENDED BRANDS",
                     style: TextStyle(fontWeight: FontWeight.bold),
                   ),
-                  SizedBox(width: MediaQuery.of(context).size.height * 0.15),
+                  SizedBox(width: MediaQuery.of(context).size.height * 0.08),
                   Text("SEE ALL"),
-                  SizedBox(height: MediaQuery.of(context).size.height * 0.05),
+                  SizedBox(height: MediaQuery.of(context).size.height * 0.008),
                   Icon(Icons.forward_sharp),
                 ],
               ),
             ),
-            RichText(
-              textAlign: TextAlign.start,
-              text: TextSpan(
-                text: "The Latest Ratings From Our Sustainability Experts",
-                style: TextStyle(
-                  //fontWeight: FontWeight.bold,
-                  color: Colors.black,
-                  height: 1.1,
+            Padding(
+              padding: const EdgeInsets.all(10.0),
+              child: RichText(
+                textAlign: TextAlign.start,
+                text: TextSpan(
+                  text: "The Latest Ratings From Our Sustainability Experts",
+                  style: TextStyle(color: Colors.black, height: 1.1),
                 ),
               ),
             ),

@@ -25,7 +25,7 @@ class Scrollsection extends StatelessWidget {
                 ),
               ),
               RichText(
-                maxLines: 7,
+                maxLines: 6,
                 textAlign: TextAlign.center,
                 text: TextSpan(
                   children: [
@@ -37,10 +37,7 @@ class Scrollsection extends StatelessWidget {
                         color: Colors.black,
                       ),
                     ),
-                    TextSpan(
-                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
-                      style: TextStyle(),
-                    ),
+
                     TextSpan(
                       text: " 100% Recycled\n Plastic\n",
                       style: TextStyle(color: Colors.black54),
@@ -49,7 +46,7 @@ class Scrollsection extends StatelessWidget {
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(Icons.circle, color: Colors.black, size: 14),
                     ),
-                    TextSpan(text: " Good"),
+
                     WidgetSpan(
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(
@@ -91,10 +88,7 @@ class Scrollsection extends StatelessWidget {
                         color: Colors.black,
                       ),
                     ),
-                    TextSpan(
-                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
-                      style: TextStyle(),
-                    ),
+
                     TextSpan(
                       text: " 100% Recycled\n Plastic\n",
                       style: TextStyle(color: Colors.black54),
@@ -103,7 +97,7 @@ class Scrollsection extends StatelessWidget {
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(Icons.circle, color: Colors.black, size: 14),
                     ),
-                    TextSpan(text: " Good"),
+
                     WidgetSpan(
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(
@@ -145,10 +139,7 @@ class Scrollsection extends StatelessWidget {
                         color: Colors.black,
                       ),
                     ),
-                    TextSpan(
-                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
-                      style: TextStyle(),
-                    ),
+
                     TextSpan(
                       text: " 100% Recycled\n Plastic\n",
                       style: TextStyle(color: Colors.black54),
@@ -157,7 +148,7 @@ class Scrollsection extends StatelessWidget {
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(Icons.circle, color: Colors.black, size: 14),
                     ),
-                    TextSpan(text: " Good"),
+
                     WidgetSpan(
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(
@@ -199,10 +190,7 @@ class Scrollsection extends StatelessWidget {
                         color: Colors.black,
                       ),
                     ),
-                    TextSpan(
-                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
-                      style: TextStyle(),
-                    ),
+
                     TextSpan(
                       text: " 100% Recycled\n Plastic\n",
                       style: TextStyle(color: Colors.black54),
@@ -211,7 +199,7 @@ class Scrollsection extends StatelessWidget {
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(Icons.circle, color: Colors.black, size: 14),
                     ),
-                    TextSpan(text: " Good"),
+
                     WidgetSpan(
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(
@@ -253,10 +241,7 @@ class Scrollsection extends StatelessWidget {
                         color: Colors.black,
                       ),
                     ),
-                    TextSpan(
-                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
-                      style: TextStyle(),
-                    ),
+
                     TextSpan(
                       text: " 100% Recycled\n Plastic\n",
                       style: TextStyle(color: Colors.black54),
@@ -265,7 +250,7 @@ class Scrollsection extends StatelessWidget {
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(Icons.circle, color: Colors.black, size: 14),
                     ),
-                    TextSpan(text: " Good"),
+
                     WidgetSpan(
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(
@@ -307,10 +292,7 @@ class Scrollsection extends StatelessWidget {
                         color: Colors.black,
                       ),
                     ),
-                    TextSpan(
-                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
-                      style: TextStyle(),
-                    ),
+
                     TextSpan(
                       text: " 100% Recycled\n Plastic\n",
                       style: TextStyle(color: Colors.black54),
@@ -319,7 +301,7 @@ class Scrollsection extends StatelessWidget {
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(Icons.circle, color: Colors.black, size: 14),
                     ),
-                    TextSpan(text: " Good"),
+
                     WidgetSpan(
                       alignment: PlaceholderAlignment.bottom,
                       child: Icon(
