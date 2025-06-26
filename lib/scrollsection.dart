@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:hm_wk/mycontainer.dart';
 
 class Scrollsection extends StatelessWidget {
   const Scrollsection({super.key});
@@ -14,107 +15,311 @@ class Scrollsection extends StatelessWidget {
             children: [
               Container(
                 width: MediaQuery.of(context).size.width * 0.3,
-                height: MediaQuery.of(context).size.height * 0.2,
+                height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Center(child: Text("Brand 1")),
               ),
-              Text(
-                "Brand 1",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              RichText(
+                maxLines: 7,
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "ECOS\n",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
+                      style: TextStyle(),
+                    ),
+                    TextSpan(
+                      text: " 100% Recycled\n Plastic\n",
+                      style: TextStyle(color: Colors.black54),
+                    ),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(Icons.circle, color: Colors.black, size: 14),
+                    ),
+                    TextSpan(text: " Good"),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(
+                        Icons.fmd_good,
+                        color: Colors.black,
+                        size: 14,
+                      ),
+                    ),
+                  ],
+                ),
               ),
+              Mycontainer(),
             ],
           ),
-          SizedBox(width: MediaQuery.of(context).size.width * 0.015),
+          SizedBox(width: MediaQuery.of(context).size.width * 0.0125),
           Column(
             children: [
               Container(
                 width: MediaQuery.of(context).size.width * 0.3,
-                height: MediaQuery.of(context).size.height * 0.2,
+                height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Center(child: Text("Brand 2")),
               ),
-              Text(
-                "Brand 1",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              RichText(
+                maxLines: 7,
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "ECOS\n",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
+                      style: TextStyle(),
+                    ),
+                    TextSpan(
+                      text: " 100% Recycled\n Plastic\n",
+                      style: TextStyle(color: Colors.black54),
+                    ),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(Icons.circle, color: Colors.black, size: 14),
+                    ),
+                    TextSpan(text: " Good"),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(
+                        Icons.fmd_good,
+                        color: Colors.black,
+                        size: 14,
+                      ),
+                    ),
+                  ],
+                ),
               ),
+              Mycontainer(),
             ],
           ),
-          SizedBox(width: MediaQuery.of(context).size.width * 0.015),
+          SizedBox(width: MediaQuery.of(context).size.width * 0.0125),
           Column(
             children: [
               Container(
                 width: MediaQuery.of(context).size.width * 0.3,
-                height: MediaQuery.of(context).size.height * 0.2,
+                height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Center(child: Text("Brand 2")),
               ),
-              Text(
-                "Brand 1",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              RichText(
+                maxLines: 7,
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "ECOS\n",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
+                      style: TextStyle(),
+                    ),
+                    TextSpan(
+                      text: " 100% Recycled\n Plastic\n",
+                      style: TextStyle(color: Colors.black54),
+                    ),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(Icons.circle, color: Colors.black, size: 14),
+                    ),
+                    TextSpan(text: " Good"),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(
+                        Icons.fmd_good,
+                        color: Colors.black,
+                        size: 14,
+                      ),
+                    ),
+                  ],
+                ),
               ),
+              Mycontainer(),
             ],
           ),
-          SizedBox(width: MediaQuery.of(context).size.width * 0.015),
+          SizedBox(width: MediaQuery.of(context).size.width * 0.0125),
           Column(
             children: [
               Container(
                 width: MediaQuery.of(context).size.width * 0.3,
-                height: MediaQuery.of(context).size.height * 0.2,
+                height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Center(child: Text("Brand 2")),
               ),
-              Text(
-                "Brand 1",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              RichText(
+                maxLines: 7,
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "ECOS\n",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
+                      style: TextStyle(),
+                    ),
+                    TextSpan(
+                      text: " 100% Recycled\n Plastic\n",
+                      style: TextStyle(color: Colors.black54),
+                    ),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(Icons.circle, color: Colors.black, size: 14),
+                    ),
+                    TextSpan(text: " Good"),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(
+                        Icons.fmd_good,
+                        color: Colors.black,
+                        size: 14,
+                      ),
+                    ),
+                  ],
+                ),
               ),
+              Mycontainer(),
             ],
           ),
-          SizedBox(width: MediaQuery.of(context).size.width * 0.015),
+          SizedBox(width: MediaQuery.of(context).size.width * 0.0125),
           Column(
             children: [
               Container(
                 width: MediaQuery.of(context).size.width * 0.3,
-                height: MediaQuery.of(context).size.height * 0.2,
+                height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Center(child: Text("Brand 2")),
               ),
-              Text(
-                "Brand 1",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              RichText(
+                maxLines: 7,
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "ECOS\n",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
+                      style: TextStyle(),
+                    ),
+                    TextSpan(
+                      text: " 100% Recycled\n Plastic\n",
+                      style: TextStyle(color: Colors.black54),
+                    ),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(Icons.circle, color: Colors.black, size: 14),
+                    ),
+                    TextSpan(text: " Good"),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(
+                        Icons.fmd_good,
+                        color: Colors.black,
+                        size: 14,
+                      ),
+                    ),
+                  ],
+                ),
               ),
+              Mycontainer(),
             ],
           ),
-          SizedBox(width: MediaQuery.of(context).size.width * 0.015),
+          SizedBox(width: MediaQuery.of(context).size.width * 0.0125),
           Column(
             children: [
               Container(
                 width: MediaQuery.of(context).size.width * 0.3,
-                height: MediaQuery.of(context).size.height * 0.2,
+                height: MediaQuery.of(context).size.height * 0.17,
                 decoration: BoxDecoration(
                   color: Colors.grey[300],
                   borderRadius: BorderRadius.circular(10),
                 ),
                 child: Center(child: Text("Brand 2")),
               ),
-              Text(
-                "Brand 1",
-                style: TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
+              RichText(
+                maxLines: 7,
+                textAlign: TextAlign.center,
+                text: TextSpan(
+                  children: [
+                    TextSpan(
+                      text: "ECOS\n",
+                      style: TextStyle(
+                        fontSize: 16,
+                        fontWeight: FontWeight.bold,
+                        color: Colors.black,
+                      ),
+                    ),
+                    TextSpan(
+                      text: "Transparent\n,Plant-Powered\n Cleaning\n",
+                      style: TextStyle(),
+                    ),
+                    TextSpan(
+                      text: " 100% Recycled\n Plastic\n",
+                      style: TextStyle(color: Colors.black54),
+                    ),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(Icons.circle, color: Colors.black, size: 14),
+                    ),
+                    TextSpan(text: " Good"),
+                    WidgetSpan(
+                      alignment: PlaceholderAlignment.bottom,
+                      child: Icon(
+                        Icons.fmd_good,
+                        color: Colors.black,
+                        size: 14,
+                      ),
+                    ),
+                  ],
+                ),
               ),
+              Mycontainer(),
             ],
           ),
         ],
