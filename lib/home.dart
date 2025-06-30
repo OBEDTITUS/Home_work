@@ -53,6 +53,7 @@ class HomePage extends StatelessWidget {
           scrollDirection: Axis.vertical,
           children: [
             Column(
+              mainAxisSize: MainAxisSize.min,
               children: [
                 Container(
                   width: MediaQuery.of(context).size.height * 0.17,
